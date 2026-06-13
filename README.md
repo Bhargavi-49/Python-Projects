@@ -130,6 +130,67 @@ Algorithm:
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/63ac07aa979f89a22c41747f5a25e537f77b99e7/Screenshot%202026-06-13%20112247.png)
 
 
+# Project-4:Student Grade calculator
+
+Description:
+This Python program calculates the total marks, average marks, and grade of a student based on marks entered for four subjects.
+
+Features:
+* Accepts marks for:
+
+  * Maths
+  * Physics
+  * Social
+  * English
+* Calculates total marks.
+* Calculates average marks.
+* Assigns a grade based on the average score.
+
+Grade Criteria:
+
+| Average Marks | Grade |
+| ------------- | ----- |
+| 90 and above  | A     |
+| 75 - 89       | B     |
+| 60 - 74       | C     |
+| 40 - 59       | D     |
+| Below 40      | Fail  |
+
+ Algorithm:
+
+1. Input marks for four subjects.
+2. Calculate the total marks.
+3. Calculate the average marks by dividing the total by 4.
+4. Display the total and average.
+5. Check the average using conditional statements:
+
+   * If average is 90 or above, assign Grade A.
+   * If average is 75 or above, assign Grade B.
+   * If average is 60 or above, assign Grade C.
+   * If average is 40 or above, assign Grade D.
+   * Otherwise, assign Fail.
+6. Display the grade.
+
+## Sample Output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
