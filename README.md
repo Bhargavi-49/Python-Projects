@@ -171,9 +171,45 @@ Grade Criteria:
    * Otherwise, assign Fail.
 6. Display the grade.
 
-## Sample Output
+Sample Output:
+
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/b70ed741a1614bc3432a9f613ada57ce1ef2771d/Screenshot%202026-06-13%20141408.png)
 
 
+# Project-5:To do List
+
+Description:
+
+This is a simple Task List Application built using Python. It allows users to add tasks, view tasks, delete tasks, and exit the program through a menu-driven interface.
+
+Features:
+
+* Add a new task
+* View all tasks
+* Delete an existing task
+* Exit the application
+
+Algorithm:
+
+1. Create an empty list to store tasks.
+2. Display a menu with available options.
+3. Ask the user to enter a choice.
+4. If the user selects **Add Task**, get the task name and store it in the list.
+5. If the user selects **View Tasks**, display all tasks from the list.
+6. If the user selects **Delete Task**, ask for the task name and remove it if it exists.
+7. If the task is not found, display an error message.
+8. If the user selects **Exit**, stop the program.
+9. Repeat the process until the user chooses to exit.
+
+
+Sample Output
+
+
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/0ba2c32bf47a025df7a3fe13347ec7f059561c0f/Screenshot%202026-06-13%20165540.png)
+
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/0ba2c32bf47a025df7a3fe13347ec7f059561c0f/Screenshot%202026-06-13%20165603.png)
+
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/0ba2c32bf47a025df7a3fe13347ec7f059561c0f/Screenshot%202026-06-13%20165617.png)
 
 
 
