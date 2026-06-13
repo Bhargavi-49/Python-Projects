@@ -85,16 +85,20 @@ A simple Python game where the computer randomly selects a number between 1 and 
 
 ## Sample Output
 
-please choose a number: 70
-The guess number is too high
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/af870d87e6e54e071faacaeaabfbe57e982bb94c/Screenshot%202026-06-13%20110040.png)
 
-please choose a number: 30
-The guess number is too low
 
-please choose a number: 50
-you guessed the number
 
-![image alt]()
+
+
+
+
+
+
+
+
+
+
 
 
 
