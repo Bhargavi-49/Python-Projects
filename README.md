@@ -127,6 +127,8 @@ Algorithm:
 
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/bcad65c8a670c7ec18261cdb36d10066849d8c12/Screenshot%202026-06-13%20112220.png)
 
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/63ac07aa979f89a22c41747f5a25e537f77b99e7/Screenshot%202026-06-13%20112247.png)
+
 
 
 
