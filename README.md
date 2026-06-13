@@ -47,6 +47,7 @@ Concepts Used:
 
 Expected Output:
 The user enters two numbers and selects an operation. The calculator displays the result of the selected operation.
+
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/cf076831378a3181d62438bf26a4a5d4d5f94b93/Screenshot%202026-06-12%20175125.png)
 
 
@@ -87,6 +88,42 @@ A simple Python game where the computer randomly selects a number between 1 and 
 
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/af870d87e6e54e071faacaeaabfbe57e982bb94c/Screenshot%202026-06-13%20110040.png)
 
+
+# Project-3:Password Generator
+
+Description: 
+
+A simple Python project that generates a random password based on the length specified by the user. The password consists of uppercase letters, lowercase letters, numbers, and special characters.
+
+Features
+
+* User chooses the password length.
+* Generates a random password.
+* Includes letters, numbers, and special characters.
+* Displays the generated password instantly.
+
+Concepts Used:
+
+* Python `random` module
+* Strings
+* User Input
+* Loops (`for`)
+* Variables
+* `random.choice()`
+
+Algorithm:
+
+1. Import the `random` module.
+2. Create a string containing letters, numbers, and special characters.
+3. Ask the user for the desired password length.
+4. Create an empty password string.
+5. Repeat for the specified number of characters:
+
+   * Select a random character from the character set.
+   * Add it to the password.
+6. Display the generated password.
+
+## Sample Output
 
 
 
