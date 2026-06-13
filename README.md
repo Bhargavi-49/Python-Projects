@@ -125,6 +125,7 @@ Algorithm:
 
 ## Sample Output
 
+![image alt}(https://github.com/Bhargavi-49/Python-Projects/blob/bcad65c8a670c7ec18261cdb36d10066849d8c12/Screenshot%202026-06-13%20112220.png)
 
 
 
