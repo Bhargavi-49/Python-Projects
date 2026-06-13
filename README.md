@@ -47,7 +47,7 @@ This project is a simple calculator developed using Python. It performs Addition
 
 ### Expected Output:
 The user enters two numbers and selects an operation. The calculator displays the result of the selected operation.
-![image alt]()
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/cf076831378a3181d62438bf26a4a5d4d5f94b93/Screenshot%202026-06-12%20175125.png)
 
 Author:
 Bhargavi
