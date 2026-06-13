@@ -49,5 +49,98 @@ This project is a simple calculator developed using Python. It performs Addition
 The user enters two numbers and selects an operation. The calculator displays the result of the selected operation.
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/cf076831378a3181d62438bf26a4a5d4d5f94b93/Screenshot%202026-06-12%20175125.png)
 
+
+# Project-2:Number Guessing Game
+
+## Description
+
+A simple Python game where the computer randomly selects a number between 1 and 100, and the user tries to guess it. The program provides hints whether the guessed number is too high or too low until the correct number is guessed.
+
+## Features
+
+* Generates a random number between 1 and 100.
+* Accepts user input for guesses.
+* Gives feedback if the guess is too high or too low.
+* Ends the game when the correct number is guessed.
+
+## Concepts Used
+
+* Python `random` module
+* Variables
+* User Input
+* Conditional Statements (`if`, `elif`, `else`)
+* Loops (`for`)
+* `break` statement
+
+## Algorithm
+
+1. Import the `random` module.
+2. Generate a random number between 1 and 100.
+3. Ask the user to guess the number.
+4. Compare the guessed number with the secret number.
+5. If the guess is correct, display a success message and stop the game.
+6. If the guess is higher than the secret number, display "Too High".
+7. If the guess is lower than the secret number, display "Too Low".
+8. Repeat the process until the correct number is guessed or the loop ends.
+
+## Sample Output
+
+please choose a number: 70
+The guess number is too high
+
+please choose a number: 30
+The guess number is too low
+
+please choose a number: 50
+you guessed the number
+
+![image alt]()
+
+
+
+
+
+## Author
+
+Bhargavi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Author:
 Bhargavi
