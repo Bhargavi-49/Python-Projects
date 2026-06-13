@@ -53,18 +53,18 @@ The user enters two numbers and selects an operation. The calculator displays th
 
 # Project-2:Number Guessing Game
 
-## Description
+Description:
 
 A simple Python game where the computer randomly selects a number between 1 and 100, and the user tries to guess it. The program provides hints whether the guessed number is too high or too low until the correct number is guessed.
 
-## Features
+Features
 
 * Generates a random number between 1 and 100.
 * Accepts user input for guesses.
 * Gives feedback if the guess is too high or too low.
 * Ends the game when the correct number is guessed.
 
-## Concepts Used
+Concepts Used
 
 * Python `random` module
 * Variables
@@ -73,7 +73,7 @@ A simple Python game where the computer randomly selects a number between 1 and 
 * Loops (`for`)
 * `break` statement
 
-## Algorithm
+Algorithm
 
 1. Import the `random` module.
 2. Generate a random number between 1 and 100.
@@ -84,7 +84,7 @@ A simple Python game where the computer randomly selects a number between 1 and 
 7. If the guess is lower than the secret number, display "Too Low".
 8. Repeat the process until the correct number is guessed or the loop ends.
 
-## Sample Output
+Sample Output
 
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/af870d87e6e54e071faacaeaabfbe57e982bb94c/Screenshot%202026-06-13%20110040.png)
 
