@@ -27,13 +27,13 @@ Algorithm:
 
 Files:
 
-1. main.py
+1. Calcultor.py
 
    * Accepts user input.
    * Displays the menu.
    * Calls the required function.
 
-2. calculator.py
+2. calculator(2).py
 
    * Contains add(), subtract(), multiply(), and divide() functions.
 
@@ -211,6 +211,61 @@ Sample Output
 
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/0ba2c32bf47a025df7a3fe13347ec7f059561c0f/Screenshot%202026-06-13%20165617.png)
 
+
+# Project-4:Temperature Converter
+
+Description:
+
+A simple Python program that converts temperatures between Celsius, Fahrenheit, and Kelvin. This project is beginner-friendly and helps in understanding user input, conditional statements, arithmetic operations, and formatted output in Python.
+
+Features:
+
+* Convert Celsius to Fahrenheit
+* Convert Fahrenheit to Celsius
+* Convert Celsius to Kelvin
+* Convert Kelvin to Celsius
+* Simple menu-driven interface
+* Handles invalid choices
+
+Algorithm:
+
+1. Start the program.
+2. Display the temperature conversion menu.
+3. Ask the user to enter a temperature value.
+4. Ask the user to choose a conversion option.
+5. Check the selected option:
+
+   * If choice is `1`, convert Celsius to Fahrenheit.
+   * If choice is `2`, convert Fahrenheit to Celsius.
+   * If choice is `3`, convert Celsius to Kelvin.
+   * If choice is `4`, convert Kelvin to Celsius.
+6. Display the converted temperature.
+7. If the user enters an invalid choice, display an error message.
+8. End the program.
+
+Conversion Formulas:
+
+1.Celsius to Fahrenheit:
+
+F = (C × 9/5) + 32
+
+Fahrenheit to Celsius:
+
+C = (F − 32) × 5/9
+
+Celsius to Kelvin
+
+K = C + 273.15
+
+Kelvin to Celsius
+
+C = K − 273.15
+
+
+
+Sample Output:
+
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/a38c447eacc8f248c95330304db7a01762463c7e/Screenshot%202026-06-13%20181000.png)
 
 
 
