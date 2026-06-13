@@ -2,7 +2,7 @@
 
 # Project-1:Simple Calculator Project
 
-** Description: **
+Description:
 This project is a simple calculator developed using Python. It performs Addition, Subtraction, Multiplication, and Division using functions stored in a separate module.
 
 Algorithm:
@@ -45,7 +45,7 @@ Concepts Used:
 * Conditional Statements
 * Return Statements
 
-** Expected Output: **
+Expected Output:
 The user enters two numbers and selects an operation. The calculator displays the result of the selected operation.
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/cf076831378a3181d62438bf26a4a5d4d5f94b93/Screenshot%202026-06-12%20175125.png)
 
