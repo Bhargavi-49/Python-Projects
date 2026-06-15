@@ -268,8 +268,103 @@ Sample Output:
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/a38c447eacc8f248c95330304db7a01762463c7e/Screenshot%202026-06-13%20181000.png)
 
 
+# Project-7:Dice Rolling Simulator
+
+Description:
+
+A simple Python program that simulates rolling a six-sided dice. The user can choose to roll the dice multiple times or exit the game.
+
+Features:
+
+* Roll a dice and get a random number between 1 and 6.
+* Continue rolling as many times as you want.
+* Exit the game anytime by entering `no`.
+* Handles invalid inputs.
+
+Concepts Used:
+
+* Python `random` module
+* `while` loop
+* Conditional statements (`if`, `elif`, `else`)
+* User input
+* String methods (`lower()`)
+
+Algorithm:
+
+1. Import the `random` module.
+2. Display a welcome message.
+3. Start an infinite loop.
+4. Ask the user whether they want to roll the dice.
+5. If the user enters `yes`:
+
+   * Generate a random number between 1 and 6.
+   * Display the rolled number.
+6. If the user enters `no`:
+
+   * Display a thank-you message.
+   * Exit the loop.
+7. Otherwise:
+
+   * Display an invalid input message.
+8. Repeat until the user chooses to exit.
+
+Sample Output:
+
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/c95cc2490ae9af62e6f2d85f1b922feda12fb079/Screenshot%202026-06-15%20160354.png)
 
 
+
+# Project-8:Currency Converter
+
+Description:
+
+A simple Python program that converts currency amounts between USD, INR, and EUR using predefined exchange rates.
+
+Features:
+
+* Convert USD to INR and INR to USD
+* Convert EUR to INR and INR to EUR
+* Convert USD to EUR and EUR to USD
+* User-friendly input system
+* Displays the converted amount instantly
+
+Concepts Used:
+
+* Variables
+* User Input (`input()`)
+* Data Type Conversion (`float()`)
+* Conditional Statements (`if`, `elif`, `else`)
+* String Methods (`upper()`)
+
+Supported Conversions:
+
+| From | To  | Exchange Rate        |
+| ---- | --- | -------------------- |
+| USD  | INR | 1 USD = 83 INR       |
+| INR  | USD | 1 USD = 83 INR       |
+| EUR  | INR | 1 EUR = 90 INR       |
+| INR  | EUR | 1 EUR = 90 INR       |
+| USD  | EUR | 1 USD = 0.85 EUR     |
+| EUR  | USD | 1 EUR = 1 / 0.85 USD |
+
+Algorithm:
+
+1. Display the title "Currency Converter".
+2. Ask the user to enter the amount.
+3. Ask for the source currency.
+4. Ask for the target currency.
+5. Convert both currency inputs to uppercase.
+6. Check the selected currencies using conditional statements.
+7. Perform the appropriate conversion.
+8. Display the converted amount.
+9. If the conversion is not supported, show an error message.
+
+Sample Output:
+
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/c95cc2490ae9af62e6f2d85f1b922feda12fb079/Screenshot%202026-06-15%20160551.png)
+
+
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/c95cc2490ae9af62e6f2d85f1b922feda12fb079/Screenshot%202026-06-15%20160702.png)
 
 
 
@@ -338,5 +433,4 @@ Bhargavi
 
 
 
-Author:
-Bhargavi
+
