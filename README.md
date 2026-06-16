@@ -368,10 +368,120 @@ Sample Output:
 
 
 
+# Project-9:Simple Quize Game
+
+Description:
+
+A simple Python quiz game that asks the user 5 questions and calculates the final score based on correct answers.
+
+Features:
+
+- 5 General Knowledge Questions
+- User input for answers
+- Score tracking system
+- Displays final score out of 10
+
+Questions Included
+
+1. What is the Capital of India?
+2. Which planet is closest to the Sun?
+3. Sum of 8 + 3?
+4. What is the largest ocean on Earth?
+5. How many days are in a leap year?
+
+How It Works
+
+1. The program displays a question.
+2. The user enters an answer.
+3. If the answer is correct, 2 points are awarded.
+4. The process repeats for all questions.
+5. The final score is displayed at the end.
+
+Algorithm:
+
+1. Store questions and answers in variables.
+2. Initialize score to 0.
+3. Display each question.
+4. Take user input.
+5. Compare user input with the correct answer.
+6. If correct:
+   - Display "Correct!"
+   - Add 2 points to the score.
+7. Otherwise:
+   - Display "Wrong!"
+8. Repeat for all questions.
+9. Display the final score.
+
+Learning Concepts:
+
+- Variables
+- User Input
+- Conditional Statements (`if` / `else`)
+- String Comparison
+- Score Tracking
+- Basic Python Programming
+
+
+Example:
+
+![image alt](C:\Users\Bhargavi\python projects\Screenshot 2026-06-16 175401.png)
 
 
 
 
+# Project-10:ATM Stimulation
+
+Description:
+
+A beginner-friendly Python project that simulates basic ATM operations such as checking balance, depositing money, and withdrawing money.
+
+Features:
+
+* Check account balance
+* Deposit money into the account
+* Withdraw money from the account
+* Exit the program
+* Menu-driven interface
+
+How It Works:
+
+1. The program starts with an initial balance of 1000.
+2. A menu is displayed with available options.
+3. The user selects an option:
+
+   * Check Balance
+   * Deposit Money
+   * Withdraw Money
+   * Exit
+4. The selected operation is performed.
+5. The menu continues to appear until the user chooses to exit.
+
+Algorithm:
+
+1. Set the initial balance to 1000.
+2. Start an infinite loop.
+3. Display the ATM menu.
+4. Take the user's choice as input.
+5. If the choice is:
+
+   * **1**: Display the current balance.
+   * **2**: Ask for a deposit amount and add it to the balance.
+   * **3**: Ask for a withdrawal amount and subtract it from the balance.
+   * **4**: Exit the program.
+6. If the user enters an invalid choice, display an error message.
+7. Repeat until the user exits.
+
+Concepts Used:
+
+* Variables
+* Loops (`while`)
+* Conditional Statements (`if`, `elif`, `else`)
+* User Input
+* Basic Arithmetic Operations
+
+Example Output:
+
+![image alt](C:\Users\Bhargavi\python projects\Screenshot 2026-06-16 180639.png)
 
 
 
