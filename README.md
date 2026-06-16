@@ -486,9 +486,69 @@ Example Output:
 
 
 
+#Project-11:Billing System
 
+Description:
 
+The Billing System is a simple Python project that generates bills for multiple items. Users can enter item details such as name, quantity, and price. The program calculates the subtotal, applies discounts and taxes, and displays the final bill amount. This project is useful for learning Python basics including loops, user input, variables, and arithmetic operations.
 
+Features:
+
+* Add multiple items to a bill
+* Calculate item-wise amount
+* Calculate subtotal automatically
+* Apply discount percentage
+* Apply tax percentage
+* Display final bill amount
+* Easy-to-use console interface
+
+Algorithm:
+
+1. Start the program.
+2. Ask the user for the number of items.
+3. Initialize subtotal as 0.
+4. Repeat for each item:
+
+   * Enter item name.
+   * Enter quantity.
+   * Enter price.
+   * Calculate amount = quantity × price.
+   * Add amount to subtotal.
+   * Display item amount.
+5. Display subtotal.
+6. Ask for discount percentage.
+7. Calculate discount amount.
+8. Subtract discount from subtotal.
+9. Ask for tax percentage.
+10. Calculate tax amount.
+11. Add tax to the discounted amount.
+12. Display the final bill.
+13. End the program.
+
+Concepts Used:
+
+* Variables
+* Input and Output
+* Loops (`for`)
+* Arithmetic Operations
+* User Input Handling
+* Basic Billing Logi
+
+Formula Used:
+
+Item Amount = Quantity × Price
+
+Discount Amount = (Subtotal × Discount) / 100
+
+Amount After Discount = Subtotal - Discount Amount
+
+Tax Amount = (Amount After Discount × Tax) / 100
+
+Total Bill = Amount After Discount + Tax Amount
+
+Example output:
+
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/86bfe0cd5be6d6cace833f4e3509072002beb29f/Screenshot%202026-06-16%20184044.png)
 
 
 
