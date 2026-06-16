@@ -424,7 +424,7 @@ Learning Concepts:
 
 Example:
 
-![image alt](C:\Users\Bhargavi\python projects\Screenshot 2026-06-16 175401.png)
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/240ad89432d86a81da276416acb637e55b1b90f1/Screenshot%202026-06-16%20175401.png)
 
 
 
@@ -481,7 +481,7 @@ Concepts Used:
 
 Example Output:
 
-![image alt](C:\Users\Bhargavi\python projects\Screenshot 2026-06-16 180639.png)
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/240ad89432d86a81da276416acb637e55b1b90f1/Screenshot%202026-06-16%20180639.png)
 
 
 
