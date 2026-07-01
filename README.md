@@ -212,7 +212,7 @@ Sample Output
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/0ba2c32bf47a025df7a3fe13347ec7f059561c0f/Screenshot%202026-06-13%20165617.png)
 
 
-# Project-4:Temperature Converter
+# Project-6:Temperature Converter
 
 Description:
 
@@ -614,8 +614,7 @@ Algorithm:
 Sample Output:
 
 
-
-
+https://github.com/user-attachments/assets/b0e8e4a7-5006-40db-9fd3-e13071e76a26
 
 
 # Project-14:Alarm Clock
@@ -655,6 +654,10 @@ Note:
 * On Linux or macOS, an alternative library such as `playsound` can be used.
 
 Sample Output:
+
+
+
+https://github.com/user-attachments/assets/c5f08a33-8078-4bf5-acd0-69b47c9adc2e
 
 
 
@@ -703,13 +706,11 @@ Sample Output:
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/bdb9d7828cf4b1dc2dce8eaf79e242d064089c7c/Screenshot%202026-07-01%20111442.png)
 
 # Project-16:Typing Speed Test
-
-
-## Description
+Description:
 
 The Typing Speed Test is a simple Python console application that measures a user's typing speed and accuracy. The program displays a sentence for the user to type, records the time taken to complete it, calculates the typing speed in **Words Per Minute (WPM)**, and determines the typing accuracy.
 
-## Features
+Features:
 
 * Displays a sentence for the user to type.
 * Measures the time taken to complete the sentence.
@@ -718,8 +719,7 @@ The Typing Speed Test is a simple Python console application that measures a use
 * Displays typing statistics after the test.
 * Beginner-friendly Python project.
 
-## Algorithm
-
+Algorithm:
 1. Import the `datetime` module.
 2. Create a list of sample sentences.
 3. Select a sentence for the typing test.
@@ -743,7 +743,13 @@ Note:
 
 Sample Output:
 
-https://github.com/user-attachments/assets/fc184bb1-1216-49c3-b42d-44b9076c3ee
+
+https://github.com/user-attachments/assets/79403578-89e6-45b0-a9e3-6977759a5f96
+
+
+
+
+
 
 
 # Project-17:QR Code Generator
@@ -818,6 +824,7 @@ Algorithm:
 Sample Output:
 
 
+https://github.com/user-attachments/assets/c92ecfc2-7da5-4cc8-b3d5-4b2ee7d4d49b
 
 
 ## Author
