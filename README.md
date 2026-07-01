@@ -48,7 +48,7 @@ Concepts Used:
 Expected Output:
 The user enters two numbers and selects an operation. The calculator displays the result of the selected operation.
 
-![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/cf076831378a3181d62438bf26a4a5d4d5f94b93/Screenshot%202026-06-12%20175125.png)
+<img src="https://github.com/Bhargavi-49/Python-Projects/blob/cf076831378a3181d62438bf26a4a5d4d5f94b93/Screenshot%202026-06-12%20175125.png" alt="Description" style="border:5px solid white;">
 
 
 # Project-2:Number Guessing Game
@@ -550,8 +550,276 @@ Example output:
 
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/86bfe0cd5be6d6cace833f4e3509072002beb29f/Screenshot%202026-06-16%20184044.png)
 
+# Project-12:Rock Paper Scissors
+
+# Rock Paper Scissors Game
+
+## Description:
+
+The Rock Paper Scissors Game is a simple Python console application where the user plays against the computer. The computer randomly selects either **Rock**, **Paper**, or **Scissors**, and the program compares both choices to determine the winner. After each round, the user can choose to play again or exit the game.
+
+## Features:
+
+* Play against the computer.
+* Computer makes a random choice every round.
+* Detects win, loss, or tie.
+* Displays both the user's and computer's choices.
+* Replay option to play multiple rounds.
+* Simple and beginner-friendly Python project.
+
+## Algorithm:
+
+1. Import the `random` module.
+2. Create a list containing **Rock**, **Paper**, and **Scissors**.
+3. Start an infinite loop to allow multiple rounds.
+4. Ask the user to enter their choice.
+5. Randomly select the computer's choice from the list.
+6. Compare the user's choice with the computer's choice.
+7. Display whether the user wins, the computer wins, or the game is a tie.
+8. Print both choices.
+9. Ask the user if they want to play again.
+10. If the user enters **"no"**, display a thank-you message and end the program. Otherwise, repeat the game.
 
 
+## Sample Output:
+
+
+
+
+
+# Project-13:Countdown Timer
+
+Description:
+
+The Countdown Timer is a simple Python project that counts down from a user-specified time. The user enters the number of hours, minutes, and seconds, and the program converts the total time into seconds. It then displays the remaining time every second until the countdown reaches zero, after which it prints **"Time's Up"**.
+
+Features:
+
+* Accepts hours, minutes, and seconds as input.
+* Converts the entered time into total seconds.
+* Displays the countdown in real time.
+* Updates every second using Python's `time` module.
+* Prints **"Time's Up"** when the countdown ends.
+
+Algorithm:
+
+1. Import the `time` module.
+2. Ask the user to enter hours, minutes, and seconds.
+3. Convert the entered time into total seconds.
+4. Start a loop that runs while the total time is greater than zero.
+5. Display the remaining time in seconds.
+6. Pause the program for one second using `time.sleep(1)`.
+7. Decrease the total time by one second.
+8. When the countdown reaches zero, display **"Time's Up"**.
+
+
+Sample Output:
+
+
+
+# Project-14:Alarm Clock
+
+Description:
+
+The Alarm Clock is a simple Python application that allows users to set an alarm by entering the desired hour, minute, and AM/PM. The program continuously checks the current system time and triggers an alarm sound when the specified time is reached.
+
+Features:
+
+* Set an alarm using a 12-hour time format (AM/PM).
+* Displays the current system time every second.
+* Continuously monitors the current time.
+* Plays a beep sound when the alarm time matches the current time.
+* Stops automatically after the alarm is triggered.
+
+Algorithm:
+
+1. Import the `datetime`, `time`, and `winsound` modules.
+2. Display the alarm clock title.
+3. Ask the user to enter the alarm hour, minute, and AM/PM.
+4. Start an infinite loop.
+5. Get the current system time.
+6. Extract the current hour, minute, and AM/PM.
+7. Display the current time on the screen.
+8. Compare the current time with the user-defined alarm time.
+9. If both times match:
+
+   * Display **"Wake Up!"**
+   * Play a beep sound using `winsound.Beep()`.
+   * Exit the loop.
+10. Otherwise, wait for one second and repeat the process.
+
+Note:
+
+* This project uses the `winsound` module, which is available only on Windows.
+* On Linux or macOS, an alternative library such as `playsound` can be used.
+
+Sample Output:
+
+
+
+
+
+# Project-15:Hangman Game
+
+Description:
+
+The Hangman Game is a simple Python console application where the player tries to guess a randomly selected word one letter at a time. The program displays underscores for hidden letters and reveals them as the player makes correct guesses. The player has a limited number of attempts to guess the word.
+
+Features:
+
+* Randomly selects a word from a predefined list.
+* Displays hidden letters using underscores (`_`).
+* Reveals correctly guessed letters in their positions.
+* Prevents guessing the same revealed letter multiple times.
+* Limits the number of incorrect attempts.
+* Displays a congratulatory message when the word is guessed successfully.
+
+Algorithm:
+
+1. Import the `random` module.
+2. Create a list of words.
+3. Randomly select one word from the list.
+4. Convert the selected word to lowercase.
+5. Create a list of underscores representing each letter in the word.
+6. Set the number of allowed attempts.
+7. Display the current progress of the word.
+8. Ask the user to guess a letter.
+9. If the guessed letter is in the secret word:
+
+   * Reveal all matching letters.
+   * Check if the entire word has been guessed.
+   * If yes, display a success message and end the game.
+10. If the guessed letter is incorrect:
+
+    * Decrease the remaining attempts by one.
+    * Display the number of attempts left.
+11. Repeat the process until the word is guessed or all attempts are used.
+
+
+Sample Output:
+
+
+# Project-16:Typing Speed Test
+
+
+## Description
+
+The Typing Speed Test is a simple Python console application that measures a user's typing speed and accuracy. The program displays a sentence for the user to type, records the time taken to complete it, calculates the typing speed in **Words Per Minute (WPM)**, and determines the typing accuracy.
+
+## Features
+
+* Displays a sentence for the user to type.
+* Measures the time taken to complete the sentence.
+* Calculates typing speed in Words Per Minute (WPM).
+* Calculates typing accuracy.
+* Displays typing statistics after the test.
+* Beginner-friendly Python project.
+
+## Algorithm
+
+1. Import the `datetime` module.
+2. Create a list of sample sentences.
+3. Select a sentence for the typing test.
+4. Display the sentence to the user.
+5. Record the start time.
+6. Accept the user's typed input.
+7. Record the end time.
+8. Calculate the total time taken.
+9. Count the number of words typed.
+10. Calculate the typing speed using the formula:
+
+    * **WPM = (Total Words × 60) ÷ Time Taken**
+11. Compare the user's input with the original sentence.
+12. Calculate the typing accuracy.
+13. Display the time taken, words typed, typing speed, and accuracy.
+
+Note:
+
+* The current version calculates **100% accuracy only when the typed sentence exactly matches the original sentence**. Otherwise, the accuracy is reported as **0%**.
+* Typing speed is calculated in **Words Per Minute (WPM)** based on the total number of words typed and the time taken.
+
+Sample Output:
+
+
+# Project-17:QR Code Generator
+
+Description:
+
+The QR Code Generator is a simple Python application that creates a QR code from user input. The user can enter a website URL, phone number, text, or any other data, and the program generates a QR code image that is saved as **`qr_code.png`**.
+
+Features:
+
+* Generate QR codes from text, URLs, phone numbers, or other data.
+* Uses the `qrcode` library to create QR codes.
+* Saves the generated QR code as a PNG image.
+* Simple and beginner-friendly Python project.
+* Customizable QR code settings such as version, box size, border, and error correction.
+
+Algorithm:
+
+1. Import the `qrcode` library and the `Image` module from Pillow.
+2. Ask the user to enter a URL, phone number, or text.
+3. Create a `QRCode` object with the required settings.
+4. Add the user's input to the QR code.
+5. Generate the QR code.
+6. Create the QR code image with a black foreground and white background.
+7. Save the image as **`qr_code.png`**.
+8. Display a success message.
+
+Technologies Used:
+
+* Python 3
+* `qrcode` library
+* Pillow (`PIL`) library
+
+
+## Sample Output
+
+```text
+Enter URL or number to generate QR code:
+https://github.com
+
+QR code generated successfully
+```
+
+After execution, a file named **`qr_code.png`** will be created in the project folder.
+
+
+Note:
+
+* The generated QR code is saved in the current project directory as **`qr_code.png`**.
+* The QR code can store text, URLs, phone numbers, email addresses, and other supported data.
+
+# Project-18:Text to Speech Converter
+
+Description:
+The Text to Speech Converter is a simple Python application that converts user-entered text into speech. It uses the **Google Text-to-Speech (gTTS)** library to generate an audio file and the **playsound** library to play it. After playback, the temporary audio file is automatically deleted.
+
+Features:
+
+* Convert text into speech.
+* Uses Google's Text-to-Speech (gTTS) service.
+* Plays the generated speech automatically.
+* Deletes the temporary audio file after playback.
+* Allows users to convert multiple texts in a single session.
+* Simple and beginner-friendly Python project.
+
+Algorithm:
+
+1. Import the required libraries (`gTTS`, `playsound`, and `os`).
+2. Start an infinite loop.
+3. Ask the user to enter text.
+4. Check if the input is empty.
+
+   * If empty, display an error message and ask again.
+5. Convert the text into speech using the `gTTS` library.
+6. Save the generated speech as **`speech.mp3`**.
+7. Play the audio file using the `playsound` library.
+8. Delete the temporary audio file using the `os` module.
+9. Ask the user whether they want to continue.
+10. If the user enters anything other than **"yes"**, display a thank-you message and exit the program.
+
+Sample Output:
 
 
 
