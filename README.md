@@ -552,13 +552,11 @@ Example output:
 
 # Project-12:Rock Paper Scissors
 
-# Rock Paper Scissors Game
-
-## Description:
+Description:
 
 The Rock Paper Scissors Game is a simple Python console application where the user plays against the computer. The computer randomly selects either **Rock**, **Paper**, or **Scissors**, and the program compares both choices to determine the winner. After each round, the user can choose to play again or exit the game.
 
-## Features:
+Features:
 
 * Play against the computer.
 * Computer makes a random choice every round.
@@ -567,7 +565,7 @@ The Rock Paper Scissors Game is a simple Python console application where the us
 * Replay option to play multiple rounds.
 * Simple and beginner-friendly Python project.
 
-## Algorithm:
+Algorithm:
 
 1. Import the `random` module.
 2. Create a list containing **Rock**, **Paper**, and **Scissors**.
@@ -581,11 +579,8 @@ The Rock Paper Scissors Game is a simple Python console application where the us
 10. If the user enters **"no"**, display a thank-you message and end the program. Otherwise, repeat the game.
 
 
-## Sample Output:
-
-
-
-
+Sample Output:
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/bdb9d7828cf4b1dc2dce8eaf79e242d064089c7c/Screenshot%202026-06-18%20171346.png)
 
 # Project-13:Countdown Timer
 
@@ -614,6 +609,7 @@ Algorithm:
 
 
 Sample Output:
+
 
 
 
@@ -697,7 +693,7 @@ Algorithm:
 
 
 Sample Output:
-
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/bdb9d7828cf4b1dc2dce8eaf79e242d064089c7c/Screenshot%202026-07-01%20111442.png)
 
 # Project-16:Typing Speed Test
 
@@ -766,24 +762,11 @@ Algorithm:
 7. Save the image as **`qr_code.png`**.
 8. Display a success message.
 
-Technologies Used:
+ Sample Output:
 
-* Python 3
-* `qrcode` library
-* Pillow (`PIL`) library
-
-
-## Sample Output
-
-```text
 Enter URL or number to generate QR code:
 https://github.com
-
-QR code generated successfully
-```
-
-After execution, a file named **`qr_code.png`** will be created in the project folder.
-
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/bdb9d7828cf4b1dc2dce8eaf79e242d064089c7c/Screenshot%202026-07-01%20120241.png)
 
 Note:
 
