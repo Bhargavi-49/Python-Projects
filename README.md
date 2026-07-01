@@ -743,7 +743,7 @@ Note:
 
 Sample Output:
 
-![watch demo](https://youtu.be/12qTQHxS3GY?si=qOJoEzgrQ3v49rb3)
+https://github.com/user-attachments/assets/fc184bb1-1216-49c3-b42d-44b9076c3ee
 
 
 # Project-17:QR Code Generator
