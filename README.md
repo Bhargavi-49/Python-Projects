@@ -614,6 +614,8 @@ Algorithm:
 Sample Output:
 
 
+https://youtu.be/yElR6MWa6eY?si=Aj7b-zEuAsMWYhpM
+
 
 
 # Project-14:Alarm Clock
@@ -654,9 +656,7 @@ Note:
 
 Sample Output:
 
-
-
-
+https://youtu.be/cC8SyR8PdwQ?si=c8KsQeNG8BurqQI0
 
 # Project-15:Hangman Game
 
@@ -815,12 +815,7 @@ Algorithm:
 
 Sample Output:
 
-
-
-
-
-
-
+https://youtu.be/NgWb8zNnDCc?si=1iReGP6GwHsdY5Nv
 
 
 ## Author
