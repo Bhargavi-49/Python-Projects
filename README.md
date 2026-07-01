@@ -48,7 +48,7 @@ Concepts Used:
 Expected Output:
 The user enters two numbers and selects an operation. The calculator displays the result of the selected operation.
 
-<kbd><img src="https://github.com/Bhargavi-49/Python-Projects/blob/cf076831378a3181d62438bf26a4a5d4d5f94b93/Screenshot%202026-06-12%20175125.png" alt="Description" style="border:5px solid white;"></kbd>
+![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/cf076831378a3181d62438bf26a4a5d4d5f94b93/Screenshot%202026-06-12%20175125.png")
 
 
 # Project-2:Number Guessing Game
@@ -580,6 +580,9 @@ Algorithm:
 
 
 Sample Output:
+
+
+
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/bdb9d7828cf4b1dc2dce8eaf79e242d064089c7c/Screenshot%202026-06-18%20171346.png)
 
 # Project-13:Countdown Timer
@@ -693,6 +696,10 @@ Algorithm:
 
 
 Sample Output:
+
+
+
+
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/bdb9d7828cf4b1dc2dce8eaf79e242d064089c7c/Screenshot%202026-07-01%20111442.png)
 
 # Project-16:Typing Speed Test
@@ -764,8 +771,12 @@ Algorithm:
 
  Sample Output:
 
+
 Enter URL or number to generate QR code:
 https://github.com
+
+
+
 ![image alt](https://github.com/Bhargavi-49/Python-Projects/blob/bdb9d7828cf4b1dc2dce8eaf79e242d064089c7c/Screenshot%202026-07-01%20120241.png)
 
 Note:
