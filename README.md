@@ -48,7 +48,7 @@ Concepts Used:
 Expected Output:
 The user enters two numbers and selects an operation. The calculator displays the result of the selected operation.
 
-<img src="https://github.com/Bhargavi-49/Python-Projects/blob/cf076831378a3181d62438bf26a4a5d4d5f94b93/Screenshot%202026-06-12%20175125.png" alt="Description" style="border:5px solid white;">
+<kbd><img src="https://github.com/Bhargavi-49/Python-Projects/blob/cf076831378a3181d62438bf26a4a5d4d5f94b93/Screenshot%202026-06-12%20175125.png" alt="Description" style="border:5px solid white;"></kbd>
 
 
 # Project-2:Number Guessing Game
